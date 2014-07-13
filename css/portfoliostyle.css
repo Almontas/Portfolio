@@ -35,6 +35,8 @@ body
 		{
 			font-size: 2em;
 			letter-spacing: -1px;
+			margin: 0; /*margin is removed, spacing between sections goes away*/
+            padding: 20px;
 		}
 		
 			h2.alt
@@ -351,6 +353,7 @@ body
 		text-align: right;
 		float: left;
 		margin-right: 0;
+
 	}
 
     #header .top
@@ -486,6 +489,7 @@ body
 	#main
 	{
 		margin-left:  20%;
+		margin-top: 0px;
 		width: 80%;
 		height: 100%;
 		float: right;
